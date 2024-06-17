@@ -1,0 +1,14 @@
+SCHEMA LOGICO CONCESSIONARIA
+
+*campo* PK
+/campo/ FK
+
+admin(*id_admin*, nome_admin, cognome_admin, username_admin, password_admin)
+
+rappresentante(*id_rappresentante*, nome_rappresentante, cognome_rappresentante, username_rappresentante, password_rappresentante, azienda_rappresentante, /id_admin/)
+
+auto(*id_auto*, modello_auto, produttrice_auto, cavalli_auto, cilindrata_auto, alimentazione_auto, anno_auto, prezzo_auto, /id_rappresentante/)
+
+incontro(*id_incontro*, data_incontro, /id_auto/, /id_cliente/)
+
+cliente(*id_cliente*, nome_cliente, cognome_cliente, username_cliente, password_cliente, telefono_cliente, email_cliente, data_nascita_cliente)
