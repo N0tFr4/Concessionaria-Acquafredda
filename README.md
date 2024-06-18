@@ -17,6 +17,39 @@ Ho strutturato il sito in modo tale che i visitatori non loggati, possano solame
 
 ***
 
+***
+
+### Funzionalità admin
+L'admin ha maggiori privilegi rispetto agli altri utenti, esso può:
+- visualizzare l'elenco di tutte le auto, modificarle o eliminarle;
+- Creare i profili dei rappresentanti (dipendenti);
+- Visualizzare l'elenco dei rappresentanti, modificarli o eliminarli;
+- Visualizazre l'elenco delle prenotazioni dei clienti.
+
+***
+
+### Funzionalità rappresentante
+Il rappresentante, essendo un dipendente, ha meno privilegi dell'admin ma egli può:
+- Visualizzare le auto della casa produttrice per la quale lavora, modificarle o eliminarle;
+- Visualizzare le prenotazioni dei clienti le auto da lui aggiunte.
+
+***
+
+### Funzionalità cliente
+Il cliente è un utente di base e può:
+- Visualizzare il catalogo delle auto;
+- Prenotare un incontro con una delle auto ed eventualmente eliminarlo;
+- Modificare i dati del suo profilo.
+
+***
+
+### Funzionalità utente non loggato
+L'utente non loggato, ovvero il visitatore occasionale, può solamente:
+- Visualizzare l'elenco delle auto della concessionaria senza però poter effettuare una prenotazione;
+- Registrarsi per poter accedere alle funzionalità del cliente.
+
+***
+
 ### SCHEMA E/R
 ![Schema E/R](schemi/schemaER.png)
 
