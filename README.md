@@ -1,5 +1,5 @@
 ## Concessionaria Acquafredda
-Concessionaria Acquafredda è il progetto che ho deciso di portare in informatica per gli esami di stato 2023-24. Ho deciso di ricreare in maniera molto semplice la struttura di un ipotetico sito web di una concessionaria di auto, inserendo anche le pagine di gestione per i dipendenti (rappresentanti di auto) e per l'admin.
+Concessionaria Acquafredda è il progetto che ho deciso di portare in informatica per gli esami di stato 2023-24. Ho deciso di ricreare in maniera molto semplice la struttura di un ipotetico sito web di una concessionaria di auto, inserendo anche le pagine di gestione delle attività dei dipendenti (rappresentanti di auto) e dell'admin.
 
 Il progetto è disponibile online cliccando [qui](https://acquafreddafrancesco.altervista.org/).
 
