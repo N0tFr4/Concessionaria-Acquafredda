@@ -33,3 +33,13 @@ auto (**id_auto**, modello_auto, produttrice_auto, cavalli_auto, cilindrata_auto
 incontro (**id_incontro**, data_incontro, _id_auto_, _id_cliente_)
 
 cliente (**id_cliente**, nome_cliente, cognome_cliente, username_cliente, password_cliente, telefono_cliente, email_cliente, data_nascita_cliente)
+
+***
+
+### SCHEMA FISICO DATABASE
+
+![admin](screenDB/admin.png)
+![rappresentante](screenDB/rappresentante.png)
+![auto](screenDB/auto.png)
+![incontro](screenDB/incontro.png)
+![cliente](screenDB/cliente.png)
