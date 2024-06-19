@@ -1,5 +1,5 @@
 ## Concessionaria Acquafredda
-Concessionaria Acquafredda è il progetto che ho deciso di portare in informatica per gli esami di stato 2023-24. Ho deciso di ricreare in maniera molto semplice la struttura di un ipotetico sito web di una concessionaria di auto, inserendo anche le pagine di gestione delle attività dei dipendenti (rappresentanti di auto) e dell'admin.
+“Concessionaria Acquafredda” è il progetto di informatica che ho scelto di presentare per gli esami di stato 2023-24. Ho deciso di ricreare in maniera molto semplice la struttura di un ipotetico sito web di una concessionaria di auto inserendo anche le pagine di gestione delle attività dei dipendenti (rappresentanti di auto) e dell'admin.
 
 Il progetto è disponibile online cliccando [qui](https://acquafreddafrancesco.altervista.org/).
 
@@ -13,23 +13,21 @@ Per la realizzazione del sito ho utilizzato:
 ***
 
 ### SPIEGAZIONE
-Ho strutturato il sito in modo tale che i visitatori non loggati, possano solamente avere informazioni sulla concessionaria e vedere la lista delle auto. Se il visitatore crea un account, egli potrà prenotare uno o più incontri in sede per vedere una o più auto. Le auto sono invece gestite dai rappresentanti, dipendenti della concessionaria che lavorano per una sola casa produttrice (es Volkswagen, Fiat ...), i quali possono aggiungere, eliminare, modificare le auto e visualizzare le prenotazioni per proprie auto. l'admin invece, ipoteticamente il proprietario della concessionaria, ha tutti i privilegi possibili: egli può aggiungere i rappresentanti e eventualmente modificare i loro dati, modificare o eliminare auto, e visualizzare l'intero elenco delle prenotaazioni dei clienti.
-
-***
+Ho strutturato il sito in modo tale che i visitatori non loggati possano solamente avere informazioni sulla concessionaria e vedere la lista delle auto. Se il visitatore crea un account potrà prenotare uno o più appuntamenti in sede per vedere le auto. Le pagine delle auto sono gestite dai rappresentanti, dipendenti della concessionaria che lavorano per una sola casa produttrice (es Volkswagen, Fiat ...), i quali possono aggiungere, eliminare, modificare le auto e visualizzare le prenotazioni per le proprie auto. L’admin invece, ipoteticamente il proprietario della concessionaria, ha tutti i privilegi possibili: può aggiungere i rappresentanti e eventualmente modificare i loro dati, modificare o eliminare auto e visualizzare l'intero elenco delle prenotaazioni dei clienti.
 
 ***
 
 ### Funzionalità admin
-L'admin ha maggiori privilegi rispetto agli altri utenti, esso può:
-- visualizzare l'elenco di tutte le auto, modificarle o eliminarle;
+L'admin ha maggiori privilegi rispetto agli altri utenti, infatti può:
+- Visualizzare l'elenco di tutte le auto, modificarle o eliminarle;
 - Creare i profili dei rappresentanti (dipendenti);
 - Visualizzare l'elenco dei rappresentanti, modificarli o eliminarli;
-- Visualizazre l'elenco delle prenotazioni dei clienti.
+- Visualizzare l'elenco delle prenotazioni dei clienti.
 
 ***
 
 ### Funzionalità rappresentante
-Il rappresentante, essendo un dipendente, ha meno privilegi dell'admin ma egli può:
+Il rappresentante, essendo un dipendente, ha meno privilegi dell'admin ma può:
 - Visualizzare le auto della casa produttrice per la quale lavora, modificarle o eliminarle;
 - Visualizzare le prenotazioni dei clienti le auto da lui aggiunte.
 
@@ -38,7 +36,7 @@ Il rappresentante, essendo un dipendente, ha meno privilegi dell'admin ma egli p
 ### Funzionalità cliente
 Il cliente è un utente di base e può:
 - Visualizzare il catalogo delle auto;
-- Prenotare un incontro con una delle auto ed eventualmente eliminarlo;
+- Prenotare un incontro con una delle auto ed eventualmente annullarlo;
 - Modificare i dati del suo profilo.
 
 ***
@@ -51,7 +49,7 @@ L'utente non loggato, ovvero il visitatore occasionale, può solamente:
 ***
 
 ### SCHEMA E/R
-![Schema E/R](schemi/schemaER.png)
+![Schema E/R](schemi/schema_er/schemaER.png)
 
 ***
 
