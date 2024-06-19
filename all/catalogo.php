@@ -17,6 +17,24 @@
 
     ?> 
 
+<style>
+        .hero {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .alert-centered {
+            position: absolute;
+            top: 20px;
+            width: 80%;
+            max-width: 600px;
+            z-index: 10;
+        }
+    </style>
+
 </head>
 <body>
 
@@ -44,7 +62,16 @@
 
 
     <section class="hero">
+
+        <div class="alert alert-primary alert-dismissible fade show alert-centered" role="alert">
+        Invitiamo i clienti a <a href="register.php" class="alert-link">registrarsi</a> per poter prenotare un appuntamento in sede per vedere le nostre auto!
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        
         <div class="container d-flex justify-content-center align-items-center vh-100">
+
+        
+
             <div class="card text-center mb-3" style="width: 60rem;">
                 <div class="card-body">
                     <h5 class="card-title">Ecco la lista delle auto presenti in concessionaria </h5>
